@@ -1,0 +1,91 @@
+Started by user [8mha:////4MneG3iBuUZsvpLEro9KD962VmJU+X/1l+14sKXSrMOkAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYu/dLi1CL9zIzEIgAq5I2JvwAAAA==[0mIhar Berasneu
+Running as SYSTEM
+Собирается удаленно на [8mha:////4HCFN3sFrdhJa0RkyHrD1EVBGa2kt9GSp/oRnkuY75OkAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQifRfXYO8Q/wDdUH9HVzcPIwCIm0/szgAAAA==[0mDESKTOP-UOAEFH2 (win10 x64) in workspace D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vitalliuss/helloci.git
+ > C:\Program Files\Git\cmd\git.exe init D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.21.0.windows.1'
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 446ae5a4fb9798821be65628da0b587e4e1f04e3 (refs/remotes/origin/master)
+ > C:\Program Files\Git\cmd\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\cmd\git.exe checkout -f 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+Commit message: "mention cobertura issue in README"
+ > C:\Program Files\Git\cmd\git.exe rev-list --no-walk 446ae5a4fb9798821be65628da0b587e4e1f04e3 # timeout=10
+[Job I Can Win] $ cmd.exe /C "C:\apache-maven-3.6.1\bin\mvn.cmd -f Java/pom.xml test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.github.vitalliuss.helloci:hello-ci >---------------
+[INFO] Building hello-ci 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom
+Progress (1): 2.7/24 kBProgress (1): 5.5/24 kBProgress (1): 8.2/24 kBProgress (1): 11/24 kB Progress (1): 14/24 kBProgress (1): 16/24 kBProgress (1): 19/24 kBProgress (1): 22/24 kBProgress (1): 24 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.pom (24 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar
+Progress (1): 2.7/315 kBProgress (1): 5.5/315 kBProgress (1): 8.2/315 kBProgress (1): 11/315 kB Progress (1): 14/315 kBProgress (1): 16/315 kBProgress (1): 19/315 kBProgress (1): 22/315 kBProgress (1): 25/315 kBProgress (1): 27/315 kBProgress (1): 30/315 kBProgress (1): 33/315 kBProgress (1): 36/315 kBProgress (1): 38/315 kBProgress (1): 41/315 kBProgress (1): 44/315 kBProgress (1): 47/315 kBProgress (1): 49/315 kBProgress (1): 52/315 kBProgress (1): 55/315 kBProgress (1): 58/315 kBProgress (1): 60/315 kBProgress (1): 63/315 kBProgress (1): 66/315 kBProgress (1): 69/315 kBProgress (1): 71/315 kBProgress (1): 74/315 kBProgress (1): 77/315 kBProgress (1): 80/315 kBProgress (1): 82/315 kBProgress (1): 85/315 kBProgress (1): 88/315 kBProgress (1): 90/315 kBProgress (1): 93/315 kBProgress (1): 96/315 kBProgress (1): 99/315 kBProgress (1): 101/315 kBProgress (1): 104/315 kBProgress (1): 107/315 kBProgress (1): 110/315 kBProgress (1): 112/315 kBProgress (1): 115/315 kBProgress (1): 118/315 kBProgress (1): 121/315 kBProgress (1): 123/315 kBProgress (1): 126/315 kBProgress (1): 129/315 kBProgress (1): 132/315 kBProgress (1): 134/315 kBProgress (1): 137/315 kBProgress (1): 140/315 kBProgress (1): 143/315 kBProgress (1): 145/315 kBProgress (1): 148/315 kBProgress (1): 151/315 kBProgress (1): 154/315 kBProgress (1): 156/315 kBProgress (1): 159/315 kBProgress (1): 162/315 kBProgress (1): 165/315 kBProgress (1): 167/315 kBProgress (1): 170/315 kBProgress (1): 173/315 kBProgress (1): 175/315 kBProgress (1): 178/315 kBProgress (1): 181/315 kBProgress (1): 184/315 kBProgress (1): 186/315 kBProgress (1): 189/315 kBProgress (1): 192/315 kBProgress (1): 195/315 kBProgress (1): 197/315 kBProgress (1): 200/315 kBProgress (1): 203/315 kBProgress (1): 206/315 kBProgress (1): 208/315 kBProgress (1): 211/315 kBProgress (1): 214/315 kBProgress (1): 217/315 kBProgress (1): 219/315 kBProgress (1): 222/315 kBProgress (1): 225/315 kBProgress (1): 228/315 kBProgress (1): 230/315 kBProgress (1): 233/315 kBProgress (1): 236/315 kBProgress (1): 239/315 kBProgress (1): 241/315 kBProgress (1): 244/315 kBProgress (1): 247/315 kBProgress (1): 250/315 kBProgress (1): 252/315 kBProgress (1): 255/315 kBProgress (1): 259/315 kBProgress (1): 263/315 kBProgress (1): 267/315 kBProgress (1): 271/315 kBProgress (1): 275/315 kBProgress (1): 280/315 kBProgress (1): 284/315 kBProgress (1): 288/315 kBProgress (1): 292/315 kBProgress (1): 296/315 kBProgress (1): 300/315 kBProgress (1): 304/315 kBProgress (1): 308/315 kBProgress (1): 312/315 kBProgress (1): 315 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/4.12/junit-4.12.jar (315 kB at 770 kB/s)
+[INFO] 
+[8mha:////4I+1DKihaDdpZYqZGQFFRG5cXU5rxWBs4jdfQeEimq3RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-ci ---
+[8mha:////4B58iX4T/KE/RGA9Q1Yx+Y2k9ghvUiOh5J0EPNuEpxkTAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win\Java\src\main\resources
+[INFO] 
+[8mha:////4I+1DKihaDdpZYqZGQFFRG5cXU5rxWBs4jdfQeEimq3RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-ci ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4B58iX4T/KE/RGA9Q1Yx+Y2k9ghvUiOh5J0EPNuEpxkTAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win\Java\target\classes
+[INFO] 
+[8mha:////4I+1DKihaDdpZYqZGQFFRG5cXU5rxWBs4jdfQeEimq3RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-ci ---
+[8mha:////4B58iX4T/KE/RGA9Q1Yx+Y2k9ghvUiOh5J0EPNuEpxkTAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win\Java\src\test\resources
+[INFO] 
+[8mha:////4I+1DKihaDdpZYqZGQFFRG5cXU5rxWBs4jdfQeEimq3RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-ci ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4B58iX4T/KE/RGA9Q1Yx+Y2k9ghvUiOh5J0EPNuEpxkTAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] File encoding has not been set, using platform encoding Cp1251, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win\Java\target\test-classes
+[INFO] 
+[8mha:////4I+1DKihaDdpZYqZGQFFRG5cXU5rxWBs4jdfQeEimq3RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:3.0.0-M1:test (default-test) @ hello-ci ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.github.vitalliuss.helloci.AppTest
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.563 s <<< FAILURE! - in com.github.vitalliuss.helloci.AppTest
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] testShouldBeFailed(com.github.vitalliuss.helloci.AppTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failures: 
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   AppTest.testShouldBeFailed:21
+[INFO] 
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 1
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.979 s
+[INFO] Finished at: 2020-08-19T12:34:56+03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M1:test (default-test) on project hello-ci: There are test failures.
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win\Java\target\surefire-reports for the individual test results.
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] -> [Help 1]
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4OYK7DG6btqQwEA1F44a/x7j9RqfUaPrdVrZZbXBjU1sAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build step 'Вызвать цели Maven верхнего уровня  ' marked build as failure
+Archiving artifacts
+Finished: FAILURE

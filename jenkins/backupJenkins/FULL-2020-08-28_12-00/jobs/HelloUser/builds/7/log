@@ -1,0 +1,13 @@
+Started by user [8mha:////4MneG3iBuUZsvpLEro9KD962VmJU+X/1l+14sKXSrMOkAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYu/dLi1CL9zIzEIgAq5I2JvwAAAA==[0mIhar Berasneu
+Running as SYSTEM
+Building on master in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser
+[HelloUser] $ cmd /c call C:\Windows\TEMP\jenkins4773909688230310785.bat
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser>ECHO Hello ihar 
+Hello ihar
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\workspace\HelloUser>exit 0 
+[HelloUser] $ cmd.exe /C "C:\apache-maven-3.6.1\bin\mvn.cmd -f pom.xml cobertura:cobertura && exit %%ERRORLEVEL%%"
+POM file "pom.xml" specified the -f/--file command-line argument does not exist 
+Build step 'Вызвать цели Maven верхнего уровня  ' marked build as failure
+Finished: FAILURE

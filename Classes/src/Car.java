@@ -4,8 +4,8 @@ import carMarks.CarMark;
  * Created by Администратор on 25.08.20.
  */
 public class Car {
-    private static int totalCustomers = 0;
-    private int id = totalCustomers++;
+    private static int totalCars = 0;
+    private int id = totalCars++;
 
     private CarMark carMark;
     private String carModel;

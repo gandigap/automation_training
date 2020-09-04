@@ -1,0 +1,17 @@
+Started by user [8mha:////4MneG3iBuUZsvpLEro9KD962VmJU+X/1l+14sKXSrMOkAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYu/dLi1CL9zIzEIgAq5I2JvwAAAA==[0mIhar Berasneu
+Running as SYSTEM
+Собирается удаленно на [8mha:////4HCFN3sFrdhJa0RkyHrD1EVBGa2kt9GSp/oRnkuY75OkAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQifRfXYO8Q/wDdUH9HVzcPIwCIm0/szgAAAA==[0mDESKTOP-UOAEFH2 (win10 x64) in workspace D:\EPAM\LearnJavaProjects\jenkins\workspace\Job I Can Win
+No credentials specified
+ > C:\Program Files\Git\cmd\git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\cmd\git.exe config remote.origin.url https://github.com/vitalliuss/helloci.git # timeout=10
+Fetching upstream changes from https://github.com/vitalliuss/helloci.git
+ > C:\Program Files\Git\cmd\git.exe --version # timeout=10
+ > git --version # 'git version 2.21.0.windows.1'
+ > C:\Program Files\Git\cmd\git.exe fetch --tags --force --progress -- https://github.com/vitalliuss/helloci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/dev^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "refs/remotes/origin/origin/dev^{commit}" # timeout=10
+ > C:\Program Files\Git\cmd\git.exe rev-parse "origin/dev^{commit}" # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Archiving artifacts
+Finished: FAILURE
